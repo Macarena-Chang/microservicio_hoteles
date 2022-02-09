@@ -6,6 +6,6 @@ import model.Hotel;
 
 public interface HotelesDao {
 	
-	public List<Hotel> devolverHotelesDisponibles(); //se implementa en HotelesDaoImpl
+	public List<Hotel> devolverHoteles(); //se implementa en HotelesDaoImpl
 
 }

@@ -14,7 +14,7 @@ public class HotelesDaoImpl implements HotelesDao{
 	HotelesJpaSpring hoteles; 
 	
 	@Override
-	public List<Hotel> devolverHotelesDisponibles() {
+	public List<Hotel> devolverHoteles() {
 		return hoteles.findAll(); 
 	}
 
